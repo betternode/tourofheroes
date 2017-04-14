@@ -1,0 +1,93 @@
+$ ng build
+Hash: ea5944801ebdf87b78c6
+Time: 6726ms
+chunk    {0} polyfills.bundle.js, polyfills.bundle.js.map (polyfills) 158 kB {4} [initial] [rendered]
+chunk    {1} main.bundle.js, main.bundle.js.map (main) 235 kB {3} [initial] [rendered]
+chunk    {2} styles.bundle.js, styles.bundle.js.map (styles) 9.99 kB {4} [initial] [rendered]
+chunk    {3} vendor.bundle.js, vendor.bundle.js.map (vendor) 2.31 MB [initial] [rendered]
+chunk    {4} inline.bundle.js, inline.bundle.js.map (inline) 0 bytes [entry] [rendered]
+
+WARNING in ./src/app/shared/app.component.ts
+104:21-38 "export 'ROUTER_DIRECTIVES' was not found in '@angular/router'
+
+WARNING in ./src/app/zones/zone-summary.component.ts
+137:21-38 "export 'ROUTER_DIRECTIVES' was not found in '@angular/router'
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/klasses/klass.service.ts (4,38): Cannot find module 'angular2-notifications'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/player/player.service.ts (3,38): Cannot find module 'angular2-notifications'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared/app.component.ts (2,10): Module '"/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/node_modules/@angular/router/router"' has no exported member 'ROUTER_DIRECTIVES'.
+/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared/app.component.ts (6,23): Cannot find module 'angular2-modal/plugins/bootstrap/index'.
+/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared/app.component.ts (23,5): Argument of type '{ selector: string; directives: any[]; styles: string[]; template: string; providers: any[]; }' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/player/player.component.ts (14,5): Argument of type '{ selector: string; directives: (typeof ProgressBarComponent | typeof PerksComponent | typeof Buf...' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/zones/zone-summary.component.ts (3,18): Module '"/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/node_modules/@angular/router/router"' has no exported member 'ROUTER_DIRECTIVES'.
+/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/zones/zone-summary.component.ts (15,5): Argument of type '{ selector: string; directives: any[]; styles: string[]; changeDetection: ChangeDetectionStrategy...' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/zones/zones.component.ts (18,5): Argument of type '{ selector: string; directives: typeof ZoneSummaryComponent[]; styles: string[]; template: string...' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/zones/zone.component.ts (50,5): Argument of type '{ selector: string; styles: string[]; pipes: typeof SkillGainsPipe[]; template: string; }' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'pipes' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared/home.component.ts (11,5): Argument of type '{ selector: string; directives: (typeof PlayerComponent | typeof ZonesComponent | typeof ZoneComp...' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared/multiplier.pipe.ts (9,16): Supplied parameters do not match any signature of call target.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/klasses/klasses.component.ts (19,5): Argument of type '{ selector: string; directives: typeof SkillComponent[]; pipes: typeof MultiplierPipe[]; styles: ...' is not assignable to parameter of type 'Component'.
+  Object literal may only specify known properties, and 'directives' does not exist in type 'Component'.
+
+ERROR in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts (5,43): Cannot find module 'angular2-notifications'.
+/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts (7,29): Cannot find module 'angular2-modal'.
+/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts (8,38): Cannot find module 'angular2-modal/plugins/bootstrap/index'.
+
+ERROR in Error encountered resolving symbol values statically. Could not resolve angular2-notifications relative to /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts., resolving symbol AppModule in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts, resolving symbol AppModule in /home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/app.module.ts
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve 'angular2-notifications' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app'
+ @ ./src/app/app.module.ts 10:0-67
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve 'angular2-modal' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app'
+ @ ./src/app/app.module.ts 11:0-45
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+
+ERROR in ./src/app/app.module.ts
+Module not found: Error: Can't resolve 'angular2-modal/plugins/bootstrap/index' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app'
+ @ ./src/app/app.module.ts 12:0-78
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+
+ERROR in ./src/app/shared/app.component.ts
+Module not found: Error: Can't resolve 'angular2-modal/plugins/bootstrap/index' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/shared'
+ @ ./src/app/shared/app.component.ts 14:0-63
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+
+ERROR in ./src/app/klasses/klass.service.ts
+Module not found: Error: Can't resolve 'angular2-notifications' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/klasses'
+ @ ./src/app/klasses/klass.service.ts 11:0-62
+ @ ./src/app/shared/app.component.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+
+ERROR in ./src/app/player/player.service.ts
+Module not found: Error: Can't resolve 'angular2-notifications' in '/home/khada/Documents/src/liftrocket/angular/heroes/tourofheroes/src/app/player'
+ @ ./src/app/player/player.service.ts 11:0-62
+ @ ./src/app/shared/app.component.ts
+ @ ./src/app/app.module.ts
+ @ ./src/main.ts
+ @ multi ./src/main.ts
+ 
+
